@@ -53,8 +53,6 @@ public class DriveSubsystem extends SubsystemBase {
     R2encoder = R2motor.getEncoder();
     R2controller = R2motor.getPIDController();
     R2motor.setOpenLoopRampRate(rampValue);
-
-  
   }
 
   public void TankDrive(double left, double right) {
